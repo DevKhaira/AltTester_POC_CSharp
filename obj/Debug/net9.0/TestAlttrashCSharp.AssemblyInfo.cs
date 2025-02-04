@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestAlttrashCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c76841649a8283b06d81f2baf79ad776e47f06a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35a58ba6c546ad14b756cc08088107b1786f2b67")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestAlttrashCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestAlttrashCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,18 +6,19 @@ PROJECT_PATH="TestAlttrashCSharp.csproj"
 PACKAGE_NAME="com.homagames.studio.allinhole"
 
 
-# Uninstall the old APK if it exists
-if adb -s "$DEVICE_ID" shell pm list packages | grep "$PACKAGE_NAME"; then
-    echo "Uninstalling existing app..."
-    adb -s "$DEVICE_ID" uninstall "$PACKAGE_NAME"
-fi
+# # Uninstall the old APK if it exists
+# if adb -s "$DEVICE_ID" shell pm list packages | grep "$PACKAGE_NAME"; then
+#     echo "Uninstalling existing app..."
+#     adb -s "$DEVICE_ID" uninstall "$PACKAGE_NAME"
+# fi
 
-# Install the APK
-echo "Installing APK..."
-adb -s "$DEVICE_ID" install "$APK_PATH"
+# # Install the APK
+# echo "Installing APK..."
+# adb -s "$DEVICE_ID" install "$APK_PATH"
 
-# Launch the app
-echo "Launching the Unity app..."
+# # Launch the app
+# echo "Launching the Unity app..."
+adb reverse tcp:13000 tcp:13000
 adb shell monkey -p $PACKAGE_NAME -c android.intent.category.LAUNCHER 1
 
 sleep 5  # Wait for the app to start

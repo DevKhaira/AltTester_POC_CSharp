@@ -55,7 +55,7 @@ namespace allinhole_gameplay_csharp.tests
             var path =  "/UI/Game/Game/Top/Safe Area 2/iOS Safe Area/Content/Timer/Text_01";
             //UI/Game/Game/Top/Safe Area 2/iOS Safe Area/Content/Timer/Text_01
             var initialPosition = altDriver.FindObject(AltBy.PATH, path).GetText();
-            altDriver.FindObject(By.NAME, "Consent").Tap();
+            // altDriver.FindObject(By.NAME, "Consent").Tap();
             Console.WriteLine("Initial position: " + initialPosition);
             altDriver.Swipe(new AltVector2(200, 300), new AltVector2(300, 400), 500, false);
             altDriver.Swipe(new AltVector2(300, 400), new AltVector2(200, 300), 500, false);
