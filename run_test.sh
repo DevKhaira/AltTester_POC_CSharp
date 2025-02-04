@@ -2,7 +2,7 @@
 
 DEVICE_ID="3A271FDJH00466"
 APK_PATH="./apk/ALL.apk"
-PROJECT_PATH="TestAlttrashCSharp.csproj"
+PROJECT_PATH="TestALL.csproj"
 PACKAGE_NAME="com.homagames.studio.allinhole"
 
 
@@ -24,7 +24,7 @@ adb shell monkey -p $PACKAGE_NAME -c android.intent.category.LAUNCHER 1
 sleep 5  # Wait for the app to start
 
 # Run NUnit tests
-echo "Running NUnit tests in TestAlttrashCSharp.csproj..."
+echo "Running NUnit tests in TestALLCSharp.csproj..."
 dotnet test "$PROJECT_PATH"
 
 echo "Test execution complete!"

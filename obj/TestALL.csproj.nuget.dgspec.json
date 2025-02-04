@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestAlttrashCSharp.csproj": {}
+    "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj": {}
   },
   "projects": {
-    "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestAlttrashCSharp.csproj": {
+    "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestAlttrashCSharp.csproj",
-        "projectName": "TestAlttrashCSharp",
-        "projectPath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestAlttrashCSharp.csproj",
+        "projectUniqueName": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj",
+        "projectName": "TestALL",
+        "projectPath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj",
         "packagesPath": "/Users/devkhaira/.nuget/packages/",
         "outputPath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/obj/",
         "projectStyle": "PackageReference",

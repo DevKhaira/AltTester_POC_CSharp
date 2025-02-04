@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GwFP5QcsjJ0=",
+  "dgSpecHash": "CLYOLJ7kCwM=",
   "success": true,
-  "projectFilePath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestAlttrashCSharp.csproj",
+  "projectFilePath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj",
   "expectedPackageFiles": [
     "/Users/devkhaira/.nuget/packages/alttester-driver/2.2.2/alttester-driver.2.2.2.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/altwebsocketsharp/1.0.7/altwebsocketsharp.1.0.7.nupkg.sha512",
