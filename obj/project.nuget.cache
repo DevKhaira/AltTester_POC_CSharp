@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CLYOLJ7kCwM=",
+  "dgSpecHash": "SBPWUmTOMnw=",
   "success": true,
   "projectFilePath": "/Users/devkhaira/Documents/GitHub/AltTester_POC_C/TestALL.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/devkhaira/.nuget/packages/nlog/4.7.9/nlog.4.7.9.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/nunit/4.3.2/nunit.4.3.2.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/nunit3testadapter/4.6.0/nunit3testadapter.4.6.0.nupkg.sha512",
+    "/Users/devkhaira/.nuget/packages/restsharp/112.1.0/restsharp.112.1.0.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/selenium.webdriver/4.27.0/selenium.webdriver.4.27.0.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/system.drawing.common/8.0.10/system.drawing.common.8.0.10.nupkg.sha512",
     "/Users/devkhaira/.nuget/packages/system.io.filesystem.accesscontrol/4.7.0/system.io.filesystem.accesscontrol.4.7.0.nupkg.sha512",

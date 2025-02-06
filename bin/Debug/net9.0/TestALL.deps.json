@@ -13,6 +13,7 @@
           "BrowserStackLocal": "2.4.0",
           "Microsoft.NET.Test.Sdk": "17.12.0",
           "NUnit3TestAdapter": "4.6.0",
+          "RestSharp": "112.1.0",
           "NUnit": "4.3.2"
         },
         "runtime": {
@@ -372,6 +373,14 @@
         }
       },
       "NUnit3TestAdapter/4.6.0": {},
+      "RestSharp/112.1.0": {
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "assemblyVersion": "112.1.0.0",
+            "fileVersion": "112.1.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.27.0": {
         "runtime": {
           "lib/net8.0/WebDriver.dll": {
@@ -517,6 +526,13 @@
       "sha512": "sha512-R7e1+a4vuV/YS+ItfL7f//rG+JBvVeVLX4mHzFEZo4W1qEKl8Zz27AqvQSAqo+BtIzUCo4aAJMYa56VXS4hudw==",
       "path": "nunit3testadapter/4.6.0",
       "hashPath": "nunit3testadapter.4.6.0.nupkg.sha512"
+    },
+    "RestSharp/112.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "path": "restsharp/112.1.0",
+      "hashPath": "restsharp.112.1.0.nupkg.sha512"
     },
     "Selenium.WebDriver/4.27.0": {
       "type": "package",

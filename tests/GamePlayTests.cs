@@ -51,6 +51,7 @@ namespace allinhole_gameplay_csharp.tests
         [Test]
         public void TestTouchScreenMovement()
         {   
+            caseId = 2978;
             // /Level[1]/New Game Object/Apricot(Clone)(Clone)[2]/Apricot(Clone)/_UMS_LODs_/Level01/000_static_Apricot(Clone)_combined_static
             var path =  "/UI/Game/Game/Top/Safe Area 2/iOS Safe Area/Content/Timer/Text_01";
             //UI/Game/Game/Top/Safe Area 2/iOS Safe Area/Content/Timer/Text_01

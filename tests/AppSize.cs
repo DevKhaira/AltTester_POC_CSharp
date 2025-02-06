@@ -11,6 +11,7 @@ namespace allinhole_gameplay_csharp.tests
         [Test]
         public void TestInstalledAppSize()
         {
+            caseId = 2977;
             try
             {
                 string appPackage = "com.homagames.studio.allinhole"; 
@@ -66,6 +67,7 @@ namespace allinhole_gameplay_csharp.tests
                 long fileSizeInBytes = long.Parse(sizeOutput);
                 double fileSizeInMB = fileSizeInBytes / (1024.0 * 1024.0);
                 Console.WriteLine($"Installed App Size: {fileSizeInMB:F2} MB");
+                Assert.Fail("WE ARE FAILING THIS TEST ON PURPOSE");
             }
             catch (Exception ex)
             {

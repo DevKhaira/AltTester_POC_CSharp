@@ -17,7 +17,7 @@ PACKAGE_NAME="com.homagames.studio.allinhole"
 # adb -s "$DEVICE_ID" install "$APK_PATH"
 
 # # Launch the app
-# echo "Launching the Unity app..."
+echo "Launching the Unity app..."
 adb reverse tcp:13000 tcp:13000
 adb shell monkey -p $PACKAGE_NAME -c android.intent.category.LAUNCHER 1
 
