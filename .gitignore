@@ -1,2 +1,6 @@
 
 apk/ALL.apk
+/bin/*
+/bin/Debug/*
+*.dll
+.DS_Store
