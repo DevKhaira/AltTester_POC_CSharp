@@ -65,6 +65,8 @@ namespace allinhole_gameplay_csharp.tests
             var newPosition = altDriver.FindObject(AltBy.PATH, path).GetText();
             Console.WriteLine("New position: " + newPosition);
 
+            // Thread.Sleep(10000); // Allow time for movement
+            // Assert.Fail();
             Assert.That(initialPosition, Is.Not.EqualTo(newPosition), "The position should change after a screen tap.");
             Console.WriteLine("Assertion complete");
         }
